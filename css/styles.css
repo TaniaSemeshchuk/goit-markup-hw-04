@@ -141,6 +141,10 @@ button {
   margin-right: 50px;
 }
 
+.contact-icon {
+  /*fill: black;*/
+}
+
 /* Футер */
 footer {
   background-color: var(--footer-bg-color);
@@ -276,7 +280,7 @@ footer {
   margin-right: 30px;
 }
 
-.features li::before {
+/*.features li::before {
   display: block;
   content: '';
   height: 120px;
@@ -302,7 +306,7 @@ footer {
 
 .icon-astronaut::before {
   background-image: url('../images/astronaut-1.svg');
-}
+}*/
 
 .features-text {
   font-weight: normal;
