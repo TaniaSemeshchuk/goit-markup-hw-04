@@ -426,6 +426,38 @@ footer {
   background-color: var(--accent-color);
 }
 
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client-icon-link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--icon-color);
+  color: var(--icon-color);
+  border-radius: 4px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.client-icon-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-icon {
+  fill: currentColor;
+}
+
+.client-icon-link:hover,
+.client-icon-link:focus {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
 /* Стили для portfolio.html*/
 
 /* Кнопки */
