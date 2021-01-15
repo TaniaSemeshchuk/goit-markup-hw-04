@@ -13,6 +13,7 @@
   --footer-prim-text-color: rgba(255, 255, 255, 0.6);
   --button-color: #f5f4fa;
   --secondary-bg-color: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 /* Общие стили для двух страниц */
 
@@ -130,6 +131,7 @@ button {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .contact-nav {
@@ -142,7 +144,13 @@ button {
 }
 
 .contact-icon {
-  /*fill: black;*/
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+
+.contact-icon:hover,
+.contact-icon:focus {
+  fill: var(--accent-color);
 }
 
 /* Футер */
@@ -280,33 +288,21 @@ footer {
   margin-right: 30px;
 }
 
-/*.features li::before {
-  display: block;
-  content: '';
+.icon-box {
+  display: flex;
+  width: 270px;
   height: 120px;
+  background-color: var(--button-color);
   border-radius: 4px;
   margin-bottom: 30px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--button-color);
+  align-items: center;
+  justify-content: center;
 }
 
-.icon-antenna::before {
-  background-image: url('../images/antenna-1.svg');
+.features-icon {
+  width: 70px;
+  height: 70px;
 }
-
-.icon-clock::before {
-  background-image: url('../images/clock-1.svg');
-}
-
-.icon-diagram::before {
-  background-image: url('../images/diagram-1.svg');
-}
-
-.icon-astronaut::before {
-  background-image: url('../images/astronaut-1.svg');
-}*/
 
 .features-text {
   font-weight: normal;
@@ -394,6 +390,40 @@ footer {
 
 .card .card-team:not(:last-child) {
   margin-right: 30px;
+}
+
+.card-icon {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  fill: var(--icon-color);
+  /*outline: 1px solid blue;*/
+}
+
+.card-icon-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.card-icon-box {
+  display: flex;
+  /*outline: 1px solid red;*/
+  padding-left: 32px;
+  padding-right: 32px;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.card-icon:hover,
+.card-icon:focus {
+  fill: var(--title-accent-color);
+}
+
+.card-icon-link:hover,
+.card-icon-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* Стили для portfolio.html*/
