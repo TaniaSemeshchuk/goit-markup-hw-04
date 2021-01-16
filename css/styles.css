@@ -441,37 +441,35 @@ footer {
   margin-right: 30px;
 }
 
-.card-icon {
-  width: 44px;
-  height: 44px;
-  padding: 12px;
-  fill: var(--icon-color);
-  /*outline: 1px solid blue;*/
-}
-
-.card-icon-link {
-  display: block;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
-
 .card-icon-box {
+  /*outline: 1px solid tomato;*/
   display: flex;
-  /*outline: 1px solid red;*/
   padding-left: 32px;
   padding-right: 32px;
   justify-content: space-between;
   margin-top: 16px;
 }
 
-.card-icon:hover,
-.card-icon:focus {
-  fill: var(--title-accent-color);
+.card-icon-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  /*outline: 1px solid blue;*/
+  align-items: center;
+  justify-content: center;
+  color: var(--icon-color);
+}
+
+.card-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 .card-icon-link:hover,
 .card-icon-link:focus {
+  color: var(--title-accent-color);
   background-color: var(--accent-color);
 }
 
