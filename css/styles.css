@@ -189,6 +189,57 @@ footer {
   margin-top: 9px;
 }
 
+.footer-box {
+  display: flex;
+}
+
+.join {
+  margin-left: 70px;
+}
+
+.join-subtitle {
+  color: var(--title-accent-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.join-icon-box {
+  display: flex;
+}
+
+.join-icon-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.join-icon-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.join-icon-link:hover,
+.join-icon-link:focus {
+  background-color: var(--accent-color);
+}
+
+.join-icon {
+  fill: var(--title-accent-color);
+  width: 20px;
+  height: 20px;
+}
+
 /* Стили для index.html */
 
 /* Герой */
