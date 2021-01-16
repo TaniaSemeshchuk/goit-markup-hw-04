@@ -126,6 +126,9 @@ button {
 
   padding-top: 32px;
   padding-bottom: 32px;
+
+  display: flex;
+  align-items: center;
 }
 
 .contact-link:hover,
@@ -145,12 +148,7 @@ button {
 
 .contact-icon {
   margin-right: 10px;
-  fill: var(--primary-text-color);
-}
-
-.contact-icon:hover,
-.contact-icon:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /* Футер */
